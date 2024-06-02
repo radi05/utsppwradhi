@@ -1,0 +1,165 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: cadetblue;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 10%;
+}
+
+header h1 {
+    font-size: 60px;
+    margin: 4%;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 30px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+section {
+    padding: 40px;
+    margin-bottom: 40%;
+}
+
+section img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+#Home {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+}
+
+#Home img {
+    max-width: 40%;
+    border-radius: 10px;
+    margin-right: 20px; 
+}
+
+#Home h2 {
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+#Home p {
+    font-size: 18px;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    background-color: cadetblue;
+}
+
+.card img {
+    max-width: 40%;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.card h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 18px;
+}
+
+#Roti .product, #Kopi .product {
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+    background-color: #ddd;
+}
+
+#Roti, #Kopi {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 4px;
+}
+
+#Roti .product img, #Kopi .product img {
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    background-color: #f8f9fa; /* Ubah warna latar belakang sesuai kebutuhan */
+    padding: 20px; /* Sesuaikan ukuran padding sesuai kebutuhan */
+    text-align: center; /* Pusatkan konten pada footer */
+}
+
+.contact-section {
+    margin-bottom: 20px; /* Jarak antara footer dengan elemen di atasnya */
+}
+
+.contact-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.contact-item {
+    margin: 10px; /* Jarak antar elemen kontak */
+}
+
+.contact-item a {
+    text-decoration: none; /* Hapus garis bawah dari tautan */
+    color: #333; /* Warna teks untuk tautan */
+    display: flex;
+    align-items: center;
+}
+
+.contact-item a i {
+    margin-right: 5px; /* Jarak antara ikon dan teks */
+}
+
+/* Tambahan gaya untuk ikon dari Font Awesome */
+.fas,
+.fab {
+    font-size: 20px; /* Ubah ukuran ikon sesuai kebutuhan */
+    margin-right: 5px; /* Jarak antara ikon dengan teks */
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
